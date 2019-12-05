@@ -149,4 +149,24 @@ public class ScanModel implements FsmModel {
 
         assertEquals("", isRemovingFromCart, sut.isRemovingFromCart());
     }
+
+    public boolean checkingOutGuard() {
+        return  (getState().equals(ScanMaltaStates.CHECKING_OUT));
+    }
+    public @Action
+    void checkingOut() {
+
+        sut.checkingOut();
+
+        isLoggedIn = true;
+        isLoggedOut = false;
+        isSeaching = false;
+        isAddingToCart = true;
+        isRemovingFromCart = true;
+        isCheckingOut = true;
+
+        modelState = ScanMaltaStates.CHECKING_OUT;
+
+        assertEquals("", isCheckingOut, sut.isCheckingOut());
+    }
 }
