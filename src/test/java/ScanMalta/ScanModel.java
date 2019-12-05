@@ -29,6 +29,7 @@ public class ScanModel implements FsmModel {
 
     public void reset(boolean b) {
 
+        sut.loggingOut();
         modelState = ScanMaltaStates.LOGGED_OUT;
         isLoggedIn = false;
         isLoggedOut = true;

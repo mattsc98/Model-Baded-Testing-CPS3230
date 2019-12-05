@@ -29,8 +29,8 @@ public class ScanMaltaSystem {
     boolean isCheckingOut(){ return isCheckingOut; }
 
     public void loggingIn() {
-        isLoggedIn = false;
-        isLoggedOut = true;
+        isLoggedIn = true;
+        isLoggedOut = false;
         isSeaching = false;
         isAddingToCart = false;
         isRemovingFromCart = false;
@@ -40,5 +40,9 @@ public class ScanMaltaSystem {
         browser.findElement(By.name("login[username]")).sendKeys(email);
         browser.findElement(By.name("login[password]")).sendKeys(password);
         browser.findElement(By.name("send")).click();
+    }
+
+    public void loggingOut() {
+        browser.get("https://www.scanmalta.com/newstore/customer/account/logoutSuccess/");
     }
 }
