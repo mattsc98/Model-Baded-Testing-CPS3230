@@ -37,7 +37,7 @@ public class ScanModelTest {
         tester.addCoverageMetric(new TransitionPairCoverage());
         tester.addCoverageMetric(new StateCoverage());
         tester.addCoverageMetric(new ActionCoverage());
-        tester.generate(20);
+        tester.generate(250);
         tester.printCoverage();
     }
 

@@ -95,7 +95,7 @@ public class ScanMaltaSystem {
     public void checkingOut() {
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = false;
+        isSeaching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = true;

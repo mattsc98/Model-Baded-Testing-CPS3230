@@ -72,11 +72,15 @@ public class ScanMaltaPageObject {
     }
 
     public void removeFirstProduct() {
-        WebElement shoppingCartTable = browser.findElement(By.id("shopping-cart-table"));
-        WebElement shoppingCartTableBody = shoppingCartTable.findElement(By.xpath("//table/tbody"));
-        WebElement firstProduct = shoppingCartTableBody.findElement(By.className("first"));
+        if(getCartAmount() != 0) {
 
-        firstProduct.findElement(By.className("btn-remove")).click();
+            WebElement shoppingCartTable = browser.findElement(By.id("shopping-cart-table"));
+            WebElement shoppingCartTableBody = shoppingCartTable.findElement(By.xpath("//table/tbody"));
+            WebElement firstProduct = shoppingCartTableBody.findElement(By.className("first"));
+
+            firstProduct.findElement(By.className("btn-remove")).click();
+        }
+        sleep(2);
     }
 
     public void checkoutPage() {

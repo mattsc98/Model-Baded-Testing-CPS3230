@@ -6,8 +6,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ScanMalta/ScanMaltaSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScanMalta/ScanMaltaSystem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575547204518</updated>
-      <workItem from="1575547208229" duration="14533000" />
+      <workItem from="1575547208229" duration="20632000" />
     </task>
     <servers />
   </component>
@@ -134,22 +136,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575552334774" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575563175528">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575571823151">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575563175528" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575563175528">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575571823151" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575571823144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575563175528" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575563175528">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575571823144" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575571823144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575563175528" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575563175528">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575571823144" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575571823144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575563175528" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575571823144" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1575553349299">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

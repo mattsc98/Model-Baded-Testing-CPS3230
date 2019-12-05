@@ -140,7 +140,7 @@ public class ScanModel implements FsmModel {
 
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = false;
+        isSeaching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
