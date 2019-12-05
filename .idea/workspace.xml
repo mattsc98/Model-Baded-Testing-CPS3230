@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002fd447-42aa-408f-8235-62745474d6a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScanMalta/ScanMaltaSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScanMalta/ScanMaltaSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +42,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ScanMalta" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ScanMalta" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ScanModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -81,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575547204518</updated>
-      <workItem from="1575547208229" duration="6868000" />
+      <workItem from="1575547208229" duration="9604000" />
     </task>
     <servers />
   </component>
@@ -97,30 +111,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1575552311466" />
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575554831690">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1575554831690" />
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1575548594934">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1575548594934" />
+    <state x="566" y="276" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575559043923">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="276" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1575559043923" />
+    <state x="566" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1575558655732">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.834@0.0.1536.834" timestamp="1575558655732" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575558646935">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1575558646935" />
     <state x="93" y="11" key="CommitChangelistDialog2" timestamp="1575552334774">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575552334774" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575553832279">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575559294903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575553832279">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575559294903" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575559294903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575553832279">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575559294903" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575559294899">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575553832279">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575559294899" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575559294903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575559294903" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1575553349299">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -137,10 +167,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1575553349299" />
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1575548065780">
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1575558768389">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575548065780" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575558768389" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1575552385296">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
