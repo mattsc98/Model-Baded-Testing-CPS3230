@@ -47,6 +47,11 @@ public class ScanMaltaPageObject {
         sleep(2);
     }
 
+    public void addToCart() {
+        browser.findElement(By.id("product-addtocart-button")).submit();
+        sleep(7); //due to popup that follows
+    }
+
     public void goToCart() {
         //browser.findElement(By.className("icon-cart")).submit(); CHECK THIS LATER
         browser.get("https://www.scanmalta.com/newstore/checkout/cart/");
@@ -64,5 +69,17 @@ public class ScanMaltaPageObject {
     public int getCartAmount() {
         String amount = browser.findElement(By.xpath("//span[contains(text(), 'items')]")).getText();
         return Integer.parseInt(amount.split(" ")[0]);
+    }
+
+    public void removeFirstProduct() {
+        WebElement shoppingCartTable = browser.findElement(By.id("shopping-cart-table"));
+        WebElement shoppingCartTableBody = shoppingCartTable.findElement(By.xpath("//table/tbody"));
+        WebElement firstProduct = shoppingCartTableBody.findElement(By.className("first"));
+
+        firstProduct.findElement(By.className("btn-remove")).click();
+    }
+
+    public void checkoutPage() {
+        browser.get("https://www.scanmalta.com/newstore/checkout/onepage/");
     }
 }

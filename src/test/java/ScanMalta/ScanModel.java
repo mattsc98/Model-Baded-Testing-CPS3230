@@ -108,4 +108,45 @@ public class ScanModel implements FsmModel {
 
         assertEquals("", isSeaching, sut.isSeaching());
     }
+
+    public boolean addingToCartGuard() {
+        return  (getState().equals(ScanMaltaStates.SEARCHING));
+    }
+    public @Action
+    void addingToCart() {
+
+        sut.addingToCart();
+
+        isLoggedIn = true;
+        isLoggedOut = false;
+        isSeaching = true;
+        isAddingToCart = true;
+        isRemovingFromCart = false;
+        isCheckingOut = false;
+
+        modelState = ScanMaltaStates.ADDING_TO_CART;
+
+        assertEquals("", isAddingToCart, sut.isAddingToCart());
+    }
+
+    public boolean removingFromCartGuard() {
+        return  (getState().equals(ScanMaltaStates.REMOVING_FROM_CART)) ||
+                (getState().equals(ScanMaltaStates.ADDING_TO_CART)) ;
+    }
+    public @Action
+    void removingFromCart() {
+
+        sut.removingFromCart();
+
+        isLoggedIn = true;
+        isLoggedOut = false;
+        isSeaching = false;
+        isAddingToCart = true;
+        isRemovingFromCart = true;
+        isCheckingOut = false;
+
+        modelState = ScanMaltaStates.REMOVING_FROM_CART;
+
+        assertEquals("", isRemovingFromCart, sut.isRemovingFromCart());
+    }
 }
