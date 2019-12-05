@@ -66,6 +66,15 @@ public class ScanMaltaSystem {
         isRemovingFromCart = true;
         isCheckingOut = false;
 
+        sut.search(product);
+    }
 
+    public void addingToCart() {
+        isLoggedIn = true;
+        isLoggedOut = false;
+        isSeaching = true;
+        isAddingToCart = true;
+        isRemovingFromCart = false;
+        isCheckingOut = false;
     }
 }

@@ -46,7 +46,6 @@ public class ScanModel implements FsmModel {
     public boolean loggingInGuard() {
         return getState().equals(ScanMaltaStates.LOGGED_OUT);
     }
-
     public @Action
     void loggingIn() {
 
@@ -85,5 +84,28 @@ public class ScanModel implements FsmModel {
         modelState = ScanMaltaStates.LOGGED_OUT;
 
         assertEquals("", isLoggedOut, sut.isLoggedOut());
+    }
+
+    public boolean searchingGuard() {
+        return (getState().equals(ScanMaltaStates.LOGGED_IN)) ||
+                (getState().equals(ScanMaltaStates.SEARCHING)) ||
+                (getState().equals(ScanMaltaStates.ADDING_TO_CART)) ||
+                (getState().equals(ScanMaltaStates.REMOVING_FROM_CART));
+    }
+    public @Action
+    void searching() {
+
+        sut.searching();
+
+        isLoggedIn = true;
+        isLoggedOut = false;
+        isSeaching = true;
+        isAddingToCart = true;
+        isRemovingFromCart = true;
+        isCheckingOut = false;
+
+        modelState = ScanMaltaStates.SEARCHING;
+
+        assertEquals("", isSeaching, sut.isSeaching());
     }
 }
