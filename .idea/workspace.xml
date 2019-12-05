@@ -4,8 +4,8 @@
     <list default="true" id="002fd447-42aa-408f-8235-62745474d6a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScanMalta/ScanMaltaSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScanMalta/ScanModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScanMalta/ScanModelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575547204518</updated>
-      <workItem from="1575547208229" duration="6037000" />
+      <workItem from="1575547208229" duration="6868000" />
     </task>
     <servers />
   </component>
@@ -105,22 +105,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575552334774" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1575553359138">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575553832279">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575553359138" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1575553359137">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575553832279">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575553359137" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1575553359137">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575553832279">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575553359137" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1575553359138">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575553832279">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575553359138" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575553832279" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1575553349299">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -145,16 +145,5 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1575552385296" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ScanMalta/ScanModel.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

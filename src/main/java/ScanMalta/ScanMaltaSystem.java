@@ -43,6 +43,6 @@ public class ScanMaltaSystem {
     }
 
     public void loggingOut() {
-        browser.get("https://www.scanmalta.com/newstore/customer/account/logoutSuccess/");
+        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
     }
 }
