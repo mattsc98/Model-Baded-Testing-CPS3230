@@ -21,6 +21,8 @@ public class ScanMaltaPageObject {
     }
 
     public void getPage() {
+        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
+        sleep(2);
         browser.get("https://www.scanmalta.com/newstore/customer/account/login/");
     }
 
@@ -31,7 +33,12 @@ public class ScanMaltaPageObject {
         sleep(2);
     }
 
-    public void logout() { browser.get("https://www.scanmalta.com/newstore/customer/account/logout/"); }
+    public void logout() {
+        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
+        sleep(2);
+        browser.get("https://www.scanmalta.com/newstore/");
+        sleep(2);
+    }
 
     public void search(String product) {
         browser.findElement(By.id("search")).sendKeys(product);

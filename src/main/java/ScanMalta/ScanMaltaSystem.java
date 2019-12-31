@@ -12,7 +12,7 @@ public class ScanMaltaSystem {
 
     public ScanMaltaSystem(WebDriver browser) {
         this.browser = browser;
-        browser.get("https://www.scanmalta.com/newstore/customer/account/login/");
+        browser.get("https://www.scanmalta.com/newstore/");
         sut = new ScanMaltaPageObject(browser);
     }
 
@@ -33,9 +33,9 @@ public class ScanMaltaSystem {
     public void loggingIn() {
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = false;
-        isAddingToCart = false;
-        isRemovingFromCart = false;
+        isSeaching = true;
+        isAddingToCart = true;
+        isRemovingFromCart = true;
         isCheckingOut = false;
 
         //browser.get("https://www.scanmalta.com/newstore/customer/account/login/");
@@ -49,9 +49,9 @@ public class ScanMaltaSystem {
     public void loggingOut() {
         isLoggedIn = false;
         isLoggedOut = true;
-        isSeaching = false;
-        isAddingToCart = false;
-        isRemovingFromCart = false;
+        isSeaching = true;
+        isAddingToCart = true;
+        isRemovingFromCart = true;
         isCheckingOut = false;
 
 //        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
@@ -59,8 +59,8 @@ public class ScanMaltaSystem {
     }
 
     public void searching() {
-        isLoggedIn = true;
-        isLoggedOut = false;
+//        isLoggedIn = true;
+//        isLoggedOut = true;
         isSeaching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
@@ -70,8 +70,8 @@ public class ScanMaltaSystem {
     }
 
     public void addingToCart() {
-        isLoggedIn = true;
-        isLoggedOut = false;
+//        isLoggedIn = true;
+//        isLoggedOut = true;
         isSeaching = true;
         isAddingToCart = true;
         isRemovingFromCart = false;
@@ -82,9 +82,9 @@ public class ScanMaltaSystem {
     }
 
     public void removingFromCart() {
-        isLoggedIn = true;
-        isLoggedOut = false;
-        isSeaching = false;
+//        isLoggedIn = true;
+//        isLoggedOut = true;
+        isSeaching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
@@ -95,11 +95,13 @@ public class ScanMaltaSystem {
     public void checkingOut() {
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = true;
+        isSeaching = false;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = true;
 
+        sut.getPage();
+        sut.login(email, password);
         sut.checkoutPage();
     }
 }
