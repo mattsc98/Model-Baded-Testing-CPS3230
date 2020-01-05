@@ -14,7 +14,7 @@ public class ScanModel implements FsmModel {
     private ScanMaltaSystem sut;
     private ScanMaltaStates modelState;
 
-    private boolean isLoggedIn, isLoggedOut, isSeaching,
+    private boolean isLoggedIn, isLoggedOut, isSearching,
                     isAddingToCart, isRemovingFromCart,
                     isCheckingOut;
 
@@ -33,7 +33,7 @@ public class ScanModel implements FsmModel {
         modelState = ScanMaltaStates.LOGGED_OUT;
         isLoggedIn = false;
         isLoggedOut = true;
-        isSeaching = false;
+        isSearching = false;
         isAddingToCart = false;
         isRemovingFromCart = false;
         isCheckingOut = false;
@@ -57,7 +57,7 @@ public class ScanModel implements FsmModel {
 
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = true;
+        isSearching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
@@ -80,7 +80,7 @@ public class ScanModel implements FsmModel {
 
         isLoggedIn = false;
         isLoggedOut = true;
-        isSeaching = true;
+        isSearching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
@@ -102,17 +102,14 @@ public class ScanModel implements FsmModel {
 
         sut.searching();
 
-//        isLoggedIn = true;
-//        isLoggedOut = true;
-        isSeaching = true;
+        isSearching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
 
         modelState = ScanMaltaStates.SEARCHING;
 
-        assertEquals("", isSeaching, sut.isSeaching());
-        //assertEquals("", isLoggedIn, sut.isLoggedIn());
+        assertEquals("", isSearching, sut.isSearching());
     }
 
     public boolean addingToCartGuard() {
@@ -123,9 +120,7 @@ public class ScanModel implements FsmModel {
 
         sut.addingToCart();
 
-//        isLoggedIn = true;
-//        isLoggedOut = true;
-        isSeaching = true;
+        isSearching = true;
         isAddingToCart = true;
         isRemovingFromCart = false;
         isCheckingOut = false;
@@ -145,9 +140,7 @@ public class ScanModel implements FsmModel {
 
         sut.removingFromCart();
 
-//        isLoggedIn = true;
-//        isLoggedOut = true;
-        isSeaching = true;
+        isSearching = true;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = false;
@@ -155,7 +148,6 @@ public class ScanModel implements FsmModel {
         modelState = ScanMaltaStates.REMOVING_FROM_CART;
 
         assertEquals("", isRemovingFromCart, sut.isRemovingFromCart());
-        //assertEquals("", isLoggedIn, sut.isLoggedIn());
     }
 
     public boolean checkingOutGuard() {
@@ -170,7 +162,7 @@ public class ScanModel implements FsmModel {
 
         isLoggedIn = true;
         isLoggedOut = false;
-        isSeaching = false;
+        isSearching = false;
         isAddingToCart = true;
         isRemovingFromCart = true;
         isCheckingOut = true;

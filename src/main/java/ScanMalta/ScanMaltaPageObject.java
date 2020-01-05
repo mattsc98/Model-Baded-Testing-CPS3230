@@ -20,10 +20,11 @@ public class ScanMaltaPageObject {
         this.browser = browser;
     }
 
-    public void getPage() {
-        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
-        sleep(2);
+
+    public void getLoginPage() {
+        browser.get("https://www.scanmalta.com/newstore/customer/account/logout/"); //due to login on login error
         browser.get("https://www.scanmalta.com/newstore/customer/account/login/");
+        sleep(2);
     }
 
     public void login(String username, String password) {
@@ -36,7 +37,7 @@ public class ScanMaltaPageObject {
     public void logout() {
         browser.get("https://www.scanmalta.com/newstore/customer/account/logout/");
         sleep(2);
-        browser.get("https://www.scanmalta.com/newstore/");
+        browser.get("https://www.scanmalta.com/newstore/"); //since sometimes logging out takes you to the login page
         sleep(2);
     }
 
@@ -57,20 +58,6 @@ public class ScanMaltaPageObject {
     public void addToCart() {
         browser.findElement(By.id("product-addtocart-button")).submit();
         sleep(7); //due to popup that follows
-    }
-
-    public void goToCart() {
-        //browser.findElement(By.className("icon-cart")).submit(); CHECK THIS LATER
-        browser.get("https://www.scanmalta.com/newstore/checkout/cart/");
-        sleep(3);
-    }
-
-    public void emptyCart() {
-        goToCart();
-        if(getCartAmount() != 0) {
-            browser.findElement(By.id("empty_cart_button")).sendKeys("\n");
-        }
-        sleep(2);
     }
 
     public int getCartAmount() {
